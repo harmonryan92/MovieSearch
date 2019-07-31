@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Movie Site</title>
+    <link href="https://fonts.googleapis.com/css?family=Bangers|UnifrakturMaguntia" rel="stylesheet">  <!--link to font; font name called in css file-->
+    <link                                                                                           
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />                                                                      <!--link for the arrows we use on page navigation-->
+    <link rel="stylesheet" href="main.css" />           <!--tells it to use the main.css file for styling-->
+    <script src="main.js"></script>                     <!--tells it to use the main.js file for the scripts-->
+  </head>
+  <body class="body">
+    <div class="outer">                         <!--div for the section outside the main window-->
+      <div class="main" id="main"></div>        <!--div for the main window-->
+      <div class="search">                      <!--div for the search window, located under the main window-->
+        <input type="text" name="movieSearch" id="movieSearch" /> <!--creates the search bar-->
+      </div>
+      <div class="legend">                      <!--div for the legend regarding the type of result-->
+        <span class="movie">Movie</span> | <span class="game">Game</span> | <!--spans used to display legend as: Movie|Game|Series-->
+        <span class="series">Series</span>
+      </div>
+    </div>
+  </body>
+</html>
